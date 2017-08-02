@@ -31,7 +31,8 @@ div.band .columns {
 }
 
 header.band {
-	background: #bfbfbf; /* #4b371f */;
+  background-image:url(../images/background02-766.jpg);
+	/* background: #bfbfbf; /* #4b371f */;
 	color: white;
 	text-align: center;
 	padding: 10% 0 15% 0;
@@ -127,7 +128,7 @@ footer {
 	}
 
 	header.band {
-		background-image:url(../images/background01.jpg);
+		background-image:url(../images/background02-766.jpg);
 		background-size: 100%;
     background-repeat: no-repeat;
 	}
@@ -148,4 +149,6 @@ footer {
 		text-align: right;
 	}
 
+  
 }
+

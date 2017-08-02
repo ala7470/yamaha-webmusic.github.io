@@ -30,6 +30,7 @@
 			<div class="columns sixteen" data-0="opacity: 1" data-180="opacity: 0">
 				<h1>Welcome <br>to <br>Yamaha-WebMusic !</h1>
 				<a class="button" id="link-nsx1-apps-top">nsx1-apps</a>
+				<a class="button" id="link-fm-firm-top">SD-1 Firmware</a>
 
 			</div><!--/ columns-->	
 		</div><!--/ container-->		
@@ -39,25 +40,31 @@
 		<div class="container">
 			<div class="columns twelve offset-by-two">
 				<h2>Yamaha-WebMusic へようこそ！</h2>
-				 <p>このサイトではヤマハ製品に関わるブラウザ上で動作するサンプル Apps の公開、またソースコードをオープンソースとして公開しています。公開しているソースコードを自由に改造して、新しい Apps の開発に挑戦してみて下さい。</p>
+				 <p>このサイトではヤマハ製品に関わるアプリケーション、Firmwareをオープンソースとして公開しています。公開しているソースコードを改造してオリジナルのアプリ、機器の開発に挑戦してみませんか？</p>
 			</div><!--/ column-->
 		</div><!--/ container-->
 	</div><!--/ main-->
 	
 	<div class="band main">
 		<div class="container">
-			<hr>
+			<hr style="margin-bottom:40px;">
 
-			<div id="link-nsx1-apps" class="columns six offset-by-five" style="background-color:#efefef; border:1px solid #efefef; border-radius:5px; padding:10px 20px;">
-				<h3  id="link-nsx1-apps-title" style="background-color:#bfbfbf; border-radius:3px; margin-top:10px;">NSX1-APPS</h3>
-				<p>“歌って、奏でる、次世代音源”『NSX-1』を搭載したデバイス向けのサンプルWeb Appsです。</p>
+			  <div id="link-nsx1-apps" class="columns five offset-by-two" style="background-color:#efefef; border:1px solid #efefef; border-radius:5px; padding:10px 20px; margin-bottom:20px;">
+				  <h3  id="link-nsx1-apps-title" style="background-color:#bfbfbf; border-radius:3px; margin-top:10px;">NSX1-APPS</h3>
+				  <p>“歌って、奏でる、次世代音源”『NSX-1』を搭載したデバイス向けのサンプルwebアプリ</p>
+			  </div><!--/ column-->
 
-			</div><!--/ column-->
-		</div><!--/ container-->
+
+			  <div id="link-fm-firm" class="columns five offset-by-two" style="background-color:#efefef; border:1px solid #efefef; border-radius:5px; padding:10px 20px;">
+				  <h3  id="link-fm-firm-title" style="background-color:#bfbfbf; border-radius:3px; margin-top:10px;">SD-1 Firmware</h3>
+				  <p>FM音源チップSD-1を搭載したデバイス用ファームウェア</p>
+			  </div><!--/ column-->
+
+    </div><!--/ container-->
 	</div><!--/ main-->
 	
 	<footer class="band main">
-		<hr>
+		<hr style="margin-top:20px">
 		<div class="container">
 			<div class="columns sixteen" style="text-align:center;">	
 			  <p>Copyright &copy; 2013 Yamaha Corporation. All rights reserved.</p>
@@ -76,7 +83,8 @@
 	<script tyep="text/javascript">
   var linkList = [
       {"top":"#link-nsx1-apps-top", "link": "#link-nsx1-apps", "title": "#link-nsx1-apps-title", "url": "./nsx1-apps/manual/"}, // nsx1-apps
-  ];
+       {"top":"#link-fm-firm-top", "link": "#link-fm-firm", "title": "#link-fm-firm-title", "url": "./nsx1-apps/manual/"}, // FM chip
+   ];
 
   var bLink=[], bTitle=[];
   for(var i=0; i<linkList.length; i++) {
