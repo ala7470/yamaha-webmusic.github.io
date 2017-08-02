@@ -56,9 +56,8 @@ h1 {
 }
 
 h2 {
-	font-size: 1.6em;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	font-size: 1.4em;
+	margin-top: 1.2em 0px;
 }
 
 h3 {
@@ -113,6 +112,10 @@ footer {
 	color: #3B5998;
 }
 
+div.links {
+  padding:0px 10px 20px 10px
+}
+
 /*as we don't haver many media queries, we'll stick them all here*/
 @media only screen and (min-width: 767px) { 
 	
@@ -121,7 +124,7 @@ footer {
 		font-size: 1.125em; /* 18px / 16px */
 		line-height: 1.7em;
 	}
-	
+
 	div.band .columns {
 		padding-top: 2em;
 		padding-bottom: 2em;
