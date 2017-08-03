@@ -112,7 +112,12 @@
           document.querySelector("#"+this.id+"-title").style.setProperty("background-color", dfColor.titleBackground);
       });
       bLink[i].addEventListener("mousedown", function(event){
-          location.href=linkUrl;
+          for(var i=0; i<linkList.length; i++) {
+              if('#'+event.target.id==linkList[i].title) {
+                  location.href=linkList[i].url;
+                  break;
+              }
+          }
       });
       
   }
